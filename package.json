@@ -1,0 +1,41 @@
+{
+  "name": "nodejs-boilerplate",
+  "version": "1.0.0",
+  "description": "A simple NodeJS that I can use for projects. Just runs a express server with mongodb.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fixwa/nodejs-boilerplate.git"
+  },
+  "keywords": [
+    "nodejs",
+    "boilerplate",
+    "basecode",
+    "mongodb"
+  ],
+  "author": "Pablo Nunez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fixwa/nodejs-boilerplate/issues"
+  },
+  "homepage": "https://github.com/fixwa/nodejs-boilerplate#readme",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "connect-mongo": "^2.0.1",
+    "dotenv": "^5.0.0",
+    "ejs": "^2.5.7",
+    "express": "^4.16.2",
+    "express-flash": "0.0.2",
+    "express-session": "^1.15.6",
+    "express-validator": "^5.0.0",
+    "mongoose": "^5.0.4",
+    "nodemailer": "^4.4.2",
+    "passport": "0.4.0",
+    "passport-local": "^1.0.0",
+    "request": "^2.83.0",
+    "validator": "^9.4.0"
+  }
+}
